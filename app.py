@@ -17,7 +17,7 @@ bow_model = pickle.load(open("bow_model.pkl", "rb"))
 glove_model = pickle.load(open("glove_model.pkl", "rb"))
 weighted_glove_model = pickle.load(open("weighted_glove_model.pkl", "rb"))
 
-embeddings = pickle.load(open("glove_embeddings.pkl", "rb"))
+#embeddings = pickle.load(open("glove_embeddings.pkl", "rb"))
 
 @st.cache_resource
 def load_embeddings():
