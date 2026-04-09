@@ -5,7 +5,8 @@ import re
 import string
 from nltk.corpus import stopwords
 
-
+import nltk
+nltk.download('stopwords')
 
 # ---------------- LOAD ---------------- #
 tfidf = pickle.load(open("tfidf.pkl", "rb"))
